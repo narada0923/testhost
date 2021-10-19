@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>
+                <a href="#lastpage">Logo</a>
+            </h1>
+        </div>
+        <div class="menu">
+            <input hidden id="toggle" type="checkbox" class="toggle">
+            <label class="toggle-btn" for="toggle">
+                <div class="icon">
+                    <div class="line"></div>
+                </div>
+            </label>
+
+            <div class="bg"></div>
+
+            <div class="navigation">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="bla" style="height: 100vh; background-color: yellow;">
+        <button>
+            <a href="#modal">Open Modal</a>
+        </button>
+    </section>
+    <section class="targetted" style="height: 100vh; background-color: blue;" id="lastpage"></section>
+    <div id="modal" class="backdrop">
+        <div class="modal">
+            <div class="modal__header">a</div>
+            <div class="modal__body">b</div>
+            <div class="modal__footer">
+                <button>
+                    <a href="#">Okay</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
